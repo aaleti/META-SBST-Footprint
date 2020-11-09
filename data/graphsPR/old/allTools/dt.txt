@@ -1,0 +1,28 @@
+J48 pruned tree
+------------------
+
+NoAM <= -0.264914
+|   NoAM <= -0.997935
+|   |   NoM <= -0.13828: none (4.0)
+|   |   NoM > -0.13828
+|   |   |   noc <= -0.020066: Nopol (4.0)
+|   |   |   noc > -0.020066
+|   |   |   |   NoGenSM <= -2.168016: Arja (2.0/1.0)
+|   |   |   |   NoGenSM > -2.168016: none (2.0/1.0)
+|   NoAM > -0.997935
+|   |   amc <= 0.523468
+|   |   |   NoGenSM <= 0.901591: Arja (2.0/1.0)
+|   |   |   NoGenSM > 0.901591: DynaMoth (8.0/2.0)
+|   |   amc > 0.523468: none (3.0/1.0)
+NoAM > -0.264914
+|   NoGenSM <= 0.166047: none (40.0)
+|   NoGenSM > 0.166047
+|   |   NoGenSM <= 1.007871: Arja (6.0)
+|   |   NoGenSM > 1.007871: none (10.0/2.0)
+
+Number of Leaves  : 	10
+
+Size of the tree : 	19
+
+ Accuracy of decision tree: 77.77777777777777
+ Explained variance of PCA 77.77777777777777

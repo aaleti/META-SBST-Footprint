@@ -1,0 +1,113 @@
+J48 pruned tree
+------------------
+
+NoGenM <= 0.176063
+|   NoAM <= 0.640966
+|   |   NoProAM <= -0.601624
+|   |   |   dit <= -0.571622: repaired (13.0)
+|   |   |   dit > -0.571622
+|   |   |   |   NoGenM <= -2.548497
+|   |   |   |   |   NoGenM <= -2.574452: unrepaired (2.0)
+|   |   |   |   |   NoGenM > -2.574452
+|   |   |   |   |   |   NoGenM <= -2.555262
+|   |   |   |   |   |   |   NoProAM <= -0.637984: repaired (5.0)
+|   |   |   |   |   |   |   NoProAM > -0.637984: unrepaired (2.0)
+|   |   |   |   |   |   NoGenM > -2.555262: repaired (5.0)
+|   |   |   |   NoGenM > -2.548497: unrepaired (17.0)
+|   |   NoProAM > -0.601624
+|   |   |   NoProSM <= 0.048687
+|   |   |   |   dit <= -0.057854
+|   |   |   |   |   NoAM <= -0.636242
+|   |   |   |   |   |   NoProAM <= -0.598432: repaired (16.0)
+|   |   |   |   |   |   NoProAM > -0.598432
+|   |   |   |   |   |   |   NoAM <= -0.637753
+|   |   |   |   |   |   |   |   NoGenM <= -2.608381: repaired (6.0)
+|   |   |   |   |   |   |   |   NoGenM > -2.608381
+|   |   |   |   |   |   |   |   |   NoProSM <= -1.990728: repaired (5.0)
+|   |   |   |   |   |   |   |   |   NoProSM > -1.990728
+|   |   |   |   |   |   |   |   |   |   NoProSM <= -1.904715: unrepaired (19.0/2.0)
+|   |   |   |   |   |   |   |   |   |   NoProSM > -1.904715
+|   |   |   |   |   |   |   |   |   |   |   NoProSM <= 0.009284
+|   |   |   |   |   |   |   |   |   |   |   |   NoAM <= -0.668172: repaired (17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NoAM > -0.668172
+|   |   |   |   |   |   |   |   |   |   |   |   |   NoProSM <= -0.071177: repaired (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NoProSM > -0.071177: unrepaired (6.0)
+|   |   |   |   |   |   |   |   |   |   |   NoProSM > 0.009284
+|   |   |   |   |   |   |   |   |   |   |   |   dit <= -0.124049: unrepaired (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   dit > -0.124049: repaired (3.0)
+|   |   |   |   |   |   |   NoAM > -0.637753: repaired (7.0)
+|   |   |   |   |   NoAM > -0.636242: unrepaired (13.0)
+|   |   |   |   dit > -0.057854: repaired (111.0/7.0)
+|   |   |   NoProSM > 0.048687
+|   |   |   |   dit <= 0.385578
+|   |   |   |   |   NoGenM <= -0.976112
+|   |   |   |   |   |   NoGenM <= -1.012858
+|   |   |   |   |   |   |   NoGenM <= -1.164654
+|   |   |   |   |   |   |   |   NoGenM <= -1.610702: unrepaired (2.0)
+|   |   |   |   |   |   |   |   NoGenM > -1.610702
+|   |   |   |   |   |   |   |   |   NoGenM <= -1.336511: repaired (21.0)
+|   |   |   |   |   |   |   |   |   NoGenM > -1.336511
+|   |   |   |   |   |   |   |   |   |   NoProSM <= 1.363577: repaired (3.0)
+|   |   |   |   |   |   |   |   |   |   NoProSM > 1.363577: unrepaired (3.0)
+|   |   |   |   |   |   |   NoGenM > -1.164654: repaired (39.0)
+|   |   |   |   |   |   NoGenM > -1.012858: unrepaired (6.0/1.0)
+|   |   |   |   |   NoGenM > -0.976112: repaired (277.0/6.0)
+|   |   |   |   dit > 0.385578
+|   |   |   |   |   NoGenM <= -1.663142: repaired (11.0)
+|   |   |   |   |   NoGenM > -1.663142
+|   |   |   |   |   |   dit <= 0.800337
+|   |   |   |   |   |   |   dit <= 0.396183: unrepaired (2.0)
+|   |   |   |   |   |   |   dit > 0.396183: repaired (4.0/1.0)
+|   |   |   |   |   |   dit > 0.800337: unrepaired (8.0)
+|   NoAM > 0.640966
+|   |   NoProSM <= 0.447159
+|   |   |   NoAM <= 0.66888: unrepaired (2.0)
+|   |   |   NoAM > 0.66888: repaired (36.0/5.0)
+|   |   NoProSM > 0.447159
+|   |   |   NoGenM <= -0.984788
+|   |   |   |   NoGenM <= -0.996542
+|   |   |   |   |   NoAM <= 0.854202
+|   |   |   |   |   |   dit <= -0.030264
+|   |   |   |   |   |   |   NoProSM <= 1.693674: unrepaired (3.0/1.0)
+|   |   |   |   |   |   |   NoProSM > 1.693674: repaired (9.0)
+|   |   |   |   |   |   dit > -0.030264: unrepaired (4.0)
+|   |   |   |   |   NoAM > 0.854202: unrepaired (18.0/3.0)
+|   |   |   |   NoGenM > -0.996542: repaired (16.0/1.0)
+|   |   |   NoGenM > -0.984788: unrepaired (20.0/1.0)
+NoGenM > 0.176063
+|   NoGenM <= 1.773076
+|   |   NoGenM <= 1.540501
+|   |   |   dit <= -0.339961: repaired (20.0/6.0)
+|   |   |   dit > -0.339961: unrepaired (335.0/63.0)
+|   |   NoGenM > 1.540501
+|   |   |   NoProSM <= -1.530422: repaired (14.0)
+|   |   |   NoProSM > -1.530422: unrepaired (5.0)
+|   NoGenM > 1.773076: unrepaired (87.0)
+
+Number of Leaves  : 	42
+
+Size of the tree : 	83
+
+ Accuracy of decision tree: 0.8769056233981607
+ Explained variance of PCA 68.56689395942352
+Correct:1057.0
+Incorrect:149.0
+Summary=== Summary ===
+
+Correctly Classified Instances        1057               87.6451 %
+Incorrectly Classified Instances       149               12.3549 %
+Kappa statistic                          0.7489
+K&B Relative Info Score                 64.8683 %
+K&B Information Score                  771.5877 bits      0.6398 bits/instance
+Class complexity | order 0            1189.468  bits      0.9863 bits/instance
+Class complexity | scheme            20965.6632 bits     17.3845 bits/instance
+Complexity improvement     (Sf)     -19776.1952 bits    -16.3982 bits/instance
+Mean absolute error                      0.184 
+Root mean squared error                  0.3305
+Relative absolute error                 37.5062 %
+Root relative squared error             66.7352 %
+Total Number of Instances             1206     
+
+Precision:0.8770000731432654
+Recall:0.8764510779436152
+Fmeasure:0.8766227999348637

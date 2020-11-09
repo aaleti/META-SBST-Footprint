@@ -1,0 +1,145 @@
+J48 pruned tree
+------------------
+
+amc <= 0.912216
+|   NoGenSM <= 2.133762
+|   |   NoGenM <= 0.254177
+|   |   |   NoGenSM <= -2.112311: unrepaired (40.0/1.0)
+|   |   |   NoGenSM > -2.112311
+|   |   |   |   NoGenSM <= -2.049868: repaired (181.0/70.0)
+|   |   |   |   NoGenSM > -2.049868
+|   |   |   |   |   dit <= 1.068467
+|   |   |   |   |   |   dit <= 0.262579
+|   |   |   |   |   |   |   dit <= -0.136982
+|   |   |   |   |   |   |   |   avgcc <= -0.090313
+|   |   |   |   |   |   |   |   |   dit <= -0.252108
+|   |   |   |   |   |   |   |   |   |   amc <= -0.342857
+|   |   |   |   |   |   |   |   |   |   |   NoGenM <= -0.125933
+|   |   |   |   |   |   |   |   |   |   |   |   NoGenSM <= -2.043779
+|   |   |   |   |   |   |   |   |   |   |   |   |   NoGenSM <= -2.044987: unrepaired (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NoGenSM > -2.044987: repaired (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NoGenSM > -2.043779: unrepaired (28.0)
+|   |   |   |   |   |   |   |   |   |   |   NoGenM > -0.125933
+|   |   |   |   |   |   |   |   |   |   |   |   NoGenSM <= -2.036542: repaired (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NoGenSM > -2.036542
+|   |   |   |   |   |   |   |   |   |   |   |   |   NoGenSM <= -1.971093
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NoGenSM <= -2.014563
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NoGenSM <= -2.016951: unrepaired (75.0/21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NoGenSM > -2.016951: repaired (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NoGenSM > -2.014563: unrepaired (42.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   NoGenSM > -1.971093
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NoGenSM <= -1.970055: repaired (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NoGenSM > -1.970055: unrepaired (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   amc > -0.342857
+|   |   |   |   |   |   |   |   |   |   |   mincc <= 0.988063
+|   |   |   |   |   |   |   |   |   |   |   |   avgcc <= -0.147433: unrepaired (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   avgcc > -0.147433: repaired (10.0)
+|   |   |   |   |   |   |   |   |   |   |   mincc > 0.988063: unrepaired (2.0)
+|   |   |   |   |   |   |   |   |   dit > -0.252108: repaired (14.0/1.0)
+|   |   |   |   |   |   |   |   avgcc > -0.090313
+|   |   |   |   |   |   |   |   |   amc <= -0.708832
+|   |   |   |   |   |   |   |   |   |   amc <= -0.710076
+|   |   |   |   |   |   |   |   |   |   |   NoGenSM <= -0.068481: unrepaired (18.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   NoGenSM > -0.068481: repaired (6.0)
+|   |   |   |   |   |   |   |   |   |   amc > -0.710076: repaired (8.0)
+|   |   |   |   |   |   |   |   |   amc > -0.708832: unrepaired (160.0/14.0)
+|   |   |   |   |   |   |   dit > -0.136982
+|   |   |   |   |   |   |   |   mincc <= -0.607315: unrepaired (6.0/1.0)
+|   |   |   |   |   |   |   |   mincc > -0.607315
+|   |   |   |   |   |   |   |   |   avgcc <= -0.279675: unrepaired (2.0)
+|   |   |   |   |   |   |   |   |   avgcc > -0.279675: repaired (27.0/3.0)
+|   |   |   |   |   |   dit > 0.262579: unrepaired (47.0/2.0)
+|   |   |   |   |   dit > 1.068467
+|   |   |   |   |   |   dit <= 1.305989
+|   |   |   |   |   |   |   NoGenSM <= -0.745802: unrepaired (4.0)
+|   |   |   |   |   |   |   NoGenSM > -0.745802
+|   |   |   |   |   |   |   |   NoGenM <= 0.194749: repaired (38.0/7.0)
+|   |   |   |   |   |   |   |   NoGenM > 0.194749: unrepaired (2.0)
+|   |   |   |   |   |   dit > 1.305989: unrepaired (5.0)
+|   |   NoGenM > 0.254177
+|   |   |   avgcc <= 0.651026
+|   |   |   |   NoGenM <= 0.314679: repaired (77.0/2.0)
+|   |   |   |   NoGenM > 0.314679
+|   |   |   |   |   NoGenSM <= -0.068481
+|   |   |   |   |   |   NoGenM <= 0.579892: unrepaired (14.0/1.0)
+|   |   |   |   |   |   NoGenM > 0.579892
+|   |   |   |   |   |   |   NoGenM <= 1.299971
+|   |   |   |   |   |   |   |   amc <= -0.696529: repaired (7.0)
+|   |   |   |   |   |   |   |   amc > -0.696529
+|   |   |   |   |   |   |   |   |   NoGenSM <= -0.989651: repaired (2.0)
+|   |   |   |   |   |   |   |   |   NoGenSM > -0.989651: unrepaired (5.0/1.0)
+|   |   |   |   |   |   |   NoGenM > 1.299971: unrepaired (5.0)
+|   |   |   |   |   NoGenSM > -0.068481
+|   |   |   |   |   |   avgcc <= 0.49613
+|   |   |   |   |   |   |   avgcc <= -0.666673
+|   |   |   |   |   |   |   |   mincc <= -0.428687: unrepaired (9.0)
+|   |   |   |   |   |   |   |   mincc > -0.428687
+|   |   |   |   |   |   |   |   |   NoGenM <= 3.946093: unrepaired (4.0)
+|   |   |   |   |   |   |   |   |   NoGenM > 3.946093
+|   |   |   |   |   |   |   |   |   |   avgcc <= -0.712778: repaired (19.0/4.0)
+|   |   |   |   |   |   |   |   |   |   avgcc > -0.712778: unrepaired (2.0)
+|   |   |   |   |   |   |   avgcc > -0.666673
+|   |   |   |   |   |   |   |   amc <= -0.441501
+|   |   |   |   |   |   |   |   |   mincc <= 0.46818: unrepaired (13.0/1.0)
+|   |   |   |   |   |   |   |   |   mincc > 0.46818
+|   |   |   |   |   |   |   |   |   |   amc <= -0.45379
+|   |   |   |   |   |   |   |   |   |   |   mincc <= 0.474024: repaired (22.0)
+|   |   |   |   |   |   |   |   |   |   |   mincc > 0.474024
+|   |   |   |   |   |   |   |   |   |   |   |   dit <= 1.674119
+|   |   |   |   |   |   |   |   |   |   |   |   |   amc <= -0.859837
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   dit <= 0.734228: unrepaired (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   dit > 0.734228: repaired (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   amc > -0.859837
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   avgcc <= -0.257693
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NoGenSM <= 0.648265: unrepaired (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NoGenSM > 0.648265: repaired (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   avgcc > -0.257693: repaired (47.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   dit > 1.674119
+|   |   |   |   |   |   |   |   |   |   |   |   |   amc <= -0.504532: unrepaired (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   amc > -0.504532: repaired (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   amc > -0.45379: unrepaired (7.0/1.0)
+|   |   |   |   |   |   |   |   amc > -0.441501: repaired (164.0/17.0)
+|   |   |   |   |   |   avgcc > 0.49613
+|   |   |   |   |   |   |   NoGenM <= 0.859704
+|   |   |   |   |   |   |   |   avgcc <= 0.593399: unrepaired (16.0)
+|   |   |   |   |   |   |   |   avgcc > 0.593399
+|   |   |   |   |   |   |   |   |   NoGenM <= 0.426659: repaired (3.0)
+|   |   |   |   |   |   |   |   |   NoGenM > 0.426659: unrepaired (4.0/1.0)
+|   |   |   |   |   |   |   NoGenM > 0.859704: repaired (3.0)
+|   |   |   avgcc > 0.651026
+|   |   |   |   avgcc <= 0.908846
+|   |   |   |   |   mincc <= 0.286935: unrepaired (30.0/1.0)
+|   |   |   |   |   mincc > 0.286935
+|   |   |   |   |   |   NoGenM <= 0.615988: repaired (5.0/1.0)
+|   |   |   |   |   |   NoGenM > 0.615988: unrepaired (5.0)
+|   |   |   |   avgcc > 0.908846: repaired (15.0/1.0)
+|   NoGenSM > 2.133762: repaired (229.0/3.0)
+amc > 0.912216: unrepaired (346.0/3.0)
+
+Number of Leaves  : 	58
+
+Size of the tree : 	115
+
+ Accuracy of decision tree: 0.8672051282051282
+ Explained variance of PCA 58.85146072435314
+Correct:1586.0
+Incorrect:244.0
+Summary=== Summary ===
+
+Correctly Classified Instances        1586               86.6667 %
+Incorrectly Classified Instances       244               13.3333 %
+Kappa statistic                          0.7331
+K&B Relative Info Score                 65.3319 %
+K&B Information Score                 1191.7442 bits      0.6512 bits/instance
+Class complexity | order 0            1824.1376 bits      0.9968 bits/instance
+Class complexity | scheme            25497.5207 bits     13.9331 bits/instance
+Complexity improvement     (Sf)     -23673.3831 bits    -12.9363 bits/instance
+Mean absolute error                      0.1817
+Root mean squared error                  0.3234
+Relative absolute error                 36.5059 %
+Root relative squared error             64.8241 %
+Total Number of Instances             1830     
+
+Precision:0.8682475136502354
+Recall:0.8666666666666667
+Fmeasure:0.8668102195282136

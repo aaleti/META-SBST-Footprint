@@ -1,0 +1,51 @@
+J48 pruned tree
+------------------
+
+NoPriSM <= -0.26151
+|   NoProAM <= 0.139287
+|   |   NoPriSM <= -1.601883: none (5.0/1.0)
+|   |   NoPriSM > -1.601883
+|   |   |   NoGenM <= -1.6024: Kali (2.0/1.0)
+|   |   |   NoGenM > -1.6024: Arja (4.0)
+|   NoProAM > 0.139287
+|   |   NoDefSM <= -0.874066: Cardumen (3.0)
+|   |   NoDefSM > -0.874066
+|   |   |   NoGenM <= -0.493252: Nopol (3.0)
+|   |   |   NoGenM > -0.493252: Arja (4.0/1.0)
+NoPriSM > -0.26151
+|   NoSM <= 0.304585: none (43.0)
+|   NoSM > 0.304585
+|   |   NoSM <= 1.588554
+|   |   |   cbo <= 0.141997: DynaMoth (5.0)
+|   |   |   cbo > 0.141997: Arja (2.0)
+|   |   NoSM > 1.588554
+|   |   |   NoSM <= 3.017381: none (8.0)
+|   |   |   NoSM > 3.017381: Nopol (2.0/1.0)
+
+Number of Leaves  : 	11
+
+Size of the tree : 	21
+
+ Accuracy of decision tree: 0.7530864197530864
+ Explained variance of PCA 44.69383655189379
+Correct:61.0
+Incorrect:20.0
+Summary=== Summary ===
+
+Correctly Classified Instances          61               75.3086 %
+Incorrectly Classified Instances        20               24.6914 %
+Kappa statistic                          0.5104
+K&B Relative Info Score                 44.2494 %
+K&B Information Score                   59.8078 bits      0.7384 bits/instance
+Class complexity | order 0             135.1609 bits      1.6687 bits/instance
+Class complexity | scheme            19340.5443 bits    238.7722 bits/instance
+Complexity improvement     (Sf)     -19205.3834 bits   -237.1035 bits/instance
+Mean absolute error                      0.0766
+Root mean squared error                  0.2528
+Relative absolute error                 49.3134 %
+Root relative squared error             92.8932 %
+Total Number of Instances               81     
+
+Precision:NaN
+Recall:0.7530864197530864
+Fmeasure:NaN

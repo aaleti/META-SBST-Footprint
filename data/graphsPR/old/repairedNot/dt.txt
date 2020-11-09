@@ -1,0 +1,35 @@
+J48 pruned tree
+------------------
+
+NoProSM <= 0.010428
+|   cam <= 0.363706: repaired (28.0/3.0)
+|   cam > 0.363706: unrepaired (7.0)
+NoProSM > 0.010428: unrepaired (46.0/1.0)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	5
+
+ Accuracy of decision tree: 0.9382716049382716
+ Explained variance of PCA 41.75413566006111
+Correct:76.0
+Incorrect:5.0
+Summary=== Summary ===
+
+Correctly Classified Instances          76               93.8272 %
+Incorrectly Classified Instances         5                6.1728 %
+Kappa statistic                          0.8598
+K&B Relative Info Score                 78.6351 %
+K&B Information Score                   57.8389 bits      0.7141 bits/instance
+Class complexity | order 0              73.5535 bits      0.9081 bits/instance
+Class complexity | scheme             2165.6991 bits     26.737  bits/instance
+Complexity improvement     (Sf)      -2092.1456 bits    -25.829  bits/instance
+Mean absolute error                      0.1005
+Root mean squared error                  0.2468
+Relative absolute error                 22.9254 %
+Root relative squared error             52.7671 %
+Total Number of Instances               81     
+
+Precision:0.9391860996799268
+Recall:0.9382716049382716
+Fmeasure:0.9385707905123981
