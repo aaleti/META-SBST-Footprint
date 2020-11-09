@@ -1,0 +1,12 @@
+package com.cadu; public class GeneratedClass { public void method1 (Long number00,Double number10,Boolean number20,Boolean number30,Double number40,Boolean number50,Boolean number60,Integer number70,Double number80,Double number90,Boolean number100){if(( number00 != 4027639754553434509L) 
+ ) { System.out.println("1"); if(( number10 <= 2.2070888549423541E307D) 
+ ) { System.out.println("1"); if(( number20 == false) 
+ ) { System.out.println("1"); if(( number30 == true) 
+ ) { System.out.println("1"); if(( number40 == 2.3620973499976244E306D) 
+ ) { System.out.println("1"); if(( number50 == true) 
+ ) { System.out.println("1"); if(( number60 == false) 
+ ) { System.out.println("1"); if(( number70 >= 380432614) 
+ ) { System.out.println("1"); if(( number80 >= 5.3034567880766324E306D) 
+ ) { System.out.println("1"); if(( number90 >= 1.6304438993143885E308D) 
+ ) { System.out.println("1"); if(( number100 == true) 
+ ) { System.out.println("1");  } } } } } } } } } } }} }
