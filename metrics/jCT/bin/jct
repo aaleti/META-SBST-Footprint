@@ -1,0 +1,28 @@
+#!/bin/sh
+#
+# jCT driver (Mac OS 10.6.8)
+#
+###########################################################################
+
+VERSION=1.3
+
+# Point to Java Home
+JAVAHOME="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0"
+JAVA="$JAVAHOME/Home/bin/java"
+
+# Set CLASSPATH for jCT (update paths)
+JCT_HOME="jCT-v1.3"
+JCTLIB="${JCT_HOME}/bin/lib:${JCT_HOME}/lib/commons-cli-1.2.jar"
+
+MEASURES_HOME="${JCT_HOME}/bin/lib/metrics"
+
+###########################################################################
+
+# start jCT
+
+"$JAVA" -Xms512m -Xmx1024m -classpath "$JCTLIB" -DJCT_MEASURES_HOME="$MEASURES_HOME" jct.engine.Main "$@"
+
+# EOS
+
+
+
